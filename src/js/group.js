@@ -20,8 +20,8 @@ require(['iscroll','jquery','nav','body'],function(Iscroll,$,Nav,Body){
 	});
 	
 	Nav.init();
-	$('a','.nav').on('click',function(){
-		$(this).addClass('act').parent().siblings().children('a').removeClass('act');
+	$('li','.nav').on('click',function(){
+		$(this).children('a').addClass('act').parent().siblings().children('a').removeClass('act');
 	})
 
 	

@@ -9,7 +9,8 @@ define(['jquery','iscroll'],function($,Iscroll){
 			var	nav_scroll = new IScroll('.nav_scroll', { 
 				scrollX: true, 
 				scrollY: false, 
-				mouseWheel: true 
+				mouseWheel: true,
+				click:true
 			});
 		}
 		

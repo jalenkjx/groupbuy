@@ -10,7 +10,10 @@
         width: 100%;
         background: #fff;
         overflow: hidden;
-        height:.7rem;
+        height:0.9rem;
+        border-top:1px solid #ddd;
+        border-bottom:.05rem solid #ddd;
+        box-sizing: border-box;
         
         .nav{
             position: absolute;
@@ -39,8 +42,8 @@
                 width: 100%;
                 text-align: left;
                 overflow:hidden;
-                border-top:1px solid #ddd;
                 li{
+                    padding:.1rem 0;
                     float:left;
                     width:1.4rem;
                     height:.7rem;
@@ -50,6 +53,9 @@
                         border-bottom:1px solid #f00;
                         color:#f00;
                     }
+                    a{
+                        font-size:.32rem;
+                    }
   
                 }
             }
@@ -58,7 +64,7 @@
     .body_scroll{
         position: absolute;
         z-index: 1;
-        top: 0.7rem;
+        top: 0.9rem;
         left: 0;
         bottom:0;
         width: 100%;
@@ -124,6 +130,7 @@
                                 margin-left:.2rem;
                                 color:#999;
                                 font-size:.24rem;
+                                text-decoration: line-through;
                             }
                         }
                         p{
